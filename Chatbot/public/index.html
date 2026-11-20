@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <h2>✦ My AI</h2>
+        <button id="newChat">+ New Chat</button>
+        <p class="side-text">Powered by Groq AI</p>
+    </aside>
+
+    <main class="main">
+
+        <header>
+            <h3>My AI Assistant</h3>
+            <span>● Online</span>
+        </header>
+
+        <section id="chatBox" class="chat-box">
+
+            <div class="welcome">
+                <div class="logo">✦</div>
+                <h1>How can I help you?</h1>
+                <p>Ask me anything and let's explore together.</p>
+            </div>
+
+        </section>
+
+        <div class="input-area">
+            <form id="chatForm">
+                <textarea
+                    id="userInput"
+                    placeholder="Message My AI..."
+                    rows="1"
+                    required
+                ></textarea>
+
+                <button type="submit" id="sendBtn">↑</button>
+            </form>
+
+            <p>AI can make mistakes. Check important information.</p>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
